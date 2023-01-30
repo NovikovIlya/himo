@@ -227,7 +227,8 @@ body {
 }
 
 .info__list {
-    flex-basis: 490px;
+    /* flex-basis: 490px; */
+    flex-basis: 547px;
     margin-left: 80px;
 }
 
