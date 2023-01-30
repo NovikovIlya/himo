@@ -8,6 +8,10 @@
     display: none;
 }
 
+.zero1{
+    opacity: 0;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -449,6 +453,9 @@ body {
     .form__bike-img{
         width: 500px;
     }
+    .header{
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 1110px) {
@@ -456,6 +463,7 @@ body {
         width: 100%;
     }
     .price{
+        margin-top: 30px;
         margin-bottom: 50px;
     }
     .bike__inner {
@@ -467,6 +475,10 @@ body {
     }
     .header{
         padding: 0;
+        position: relative;
+    }
+    .arrow__img{
+        width: 200px;
     }
     .bike__column {
         padding: 0;
@@ -503,6 +515,7 @@ body {
     .info__list{
         /* flex-basis: 100%; */
         margin-top: 20px;
+        margin-left: 0px;
     }
     .info__item-text{
         max-width: 100%;
@@ -517,6 +530,9 @@ body {
     .characteristics{
         padding-top: 50px;
         margin-bottom: 50px;
+    }
+    .characteristics__items{
+        margin-top: 30px;
     }
 }
 

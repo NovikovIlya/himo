@@ -1,6 +1,6 @@
 $(function(){
     $('.bike-slider').slick({
-        arrows: false,
+        arrows: true,
         dots: true,
         fade: true,
         autoplay: true,
@@ -8,15 +8,13 @@ $(function(){
     });
 });
 
-$(function(){
-    $('.slider__items').slick({
-        arrows: false,
-        dots: true,
-        fade: true,
-        autoplay: true,
-        autoplaySpeed: 2000,
-    });
-});
+const imgPresent = document.querySelector('.bike-slider');
+const next = document.querySelector('.slick-next');
+
+imgPresent.addEventListener('click',()=>{
+  const next = document.querySelector('.slick-next')
+  next.click();
+})
 
 const form = document.forms["form"];
 const formArr = Array.from(form);
@@ -99,4 +97,9 @@ function formReset() {
   });
 }
 
-
+setTimeout(()=>{
+  const next = document.querySelector('.slick-next');
+  const prev = document.querySelector('.slick-prev')
+  next.classList.add('zero1')
+  prev.classList.add('zero1')
+},1)
