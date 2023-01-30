@@ -2,6 +2,7 @@
 *::after,
 *::before {
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 .zero{
@@ -242,7 +243,7 @@ body {
 }
 
 .info__item-text {
-    max-width: 450px;
+    /* max-width: 450px; */
 }
 
 .characteristics {
