@@ -719,3 +719,7 @@ body {
 .logoImg{
     width: 100px;
 }
+
+.tel__cls{
+    font-style: italic;
+}
