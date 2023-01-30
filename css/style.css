@@ -360,6 +360,11 @@ body {
   .black-btn{
     background: black !important;
   }
+
+  .black-btn:hover{
+    cursor: pointer;
+    scale: 1.1;
+  }
   
   .button input[type="submit"] {
     color: #fff;
