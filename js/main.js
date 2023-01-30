@@ -102,4 +102,4 @@ setTimeout(()=>{
   const prev = document.querySelector('.slick-prev')
   next.classList.add('zero1')
   prev.classList.add('zero1')
-},1)
+},10)
