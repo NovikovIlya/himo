@@ -9,11 +9,18 @@ $(function(){
 });
 
 const imgPresent = document.querySelector('.bike-slider');
+const imgPresent2 = document.querySelectorAll('.bike-slider')[1];
 const next = document.querySelector('.slick-next');
+
 
 imgPresent.addEventListener('click',()=>{
   const next = document.querySelector('.slick-next')
   next.click();
+})
+
+imgPresent2.addEventListener('click',()=>{
+  const next2 = document.querySelectorAll('.slick-next')[1]
+  next2.click();
 })
 
 const form = document.forms["form"];
@@ -102,4 +109,13 @@ setTimeout(()=>{
   const prev = document.querySelector('.slick-prev')
   next.classList.add('zero1')
   prev.classList.add('zero1')
+
+  const next2 = document.querySelectorAll('.slick-next')[1];
+  const prev2 = document.querySelectorAll('.slick-prev')[1]
+  next2.classList.add('zero1')
+  prev2.classList.add('zero1')
+
+  const slick2 = document.querySelectorAll('.slick-dots')[1]
+  slick2.classList.add('slick2')
 },100)
+

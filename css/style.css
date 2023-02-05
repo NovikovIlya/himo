@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.right{
+    margin-right: 30px !important;
+    margin-left: 0px !important;
+}
 
 .zero{
     display: none;
@@ -71,7 +75,7 @@ body {
 }
 
 .menu {
-    margin: 0 70px 0 0;
+    margin: 0 0px 0 0;
 }
 
 .menu__list {
@@ -122,7 +126,7 @@ body {
 .bike__subtitle {
     max-width:  0 0 60px 0;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 39px;
     color: #6F6F6F;
 }
@@ -144,6 +148,7 @@ body {
     line-height: 24px;
     letter-spacing: 1.1em;
     transition: all .3s;
+    text-align: center;
 }
 
 .bike__link:hover{
@@ -500,6 +505,8 @@ body {
         max-width: 100%;
         margin-left: 0;
     }
+   
+    
     .bike__list {
         max-width: 100%;
         margin: 0;
@@ -722,4 +729,8 @@ body {
 
 .tel__cls{
     font-style: italic;
+}
+
+.slick2{
+    left: 0 !important;
 }
