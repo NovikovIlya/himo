@@ -546,6 +546,7 @@ body {
         padding: 0;
     }
     .bike-block{
+        display: none;
         margin-left: 270px;
         width: 120px;
         height: 384px;
@@ -619,6 +620,9 @@ body {
 }
 
 @media screen and (max-width: 991px) {
+    .bike-block{
+        display: none;
+    }
     .menu {
         margin-right: 0;
     }  
@@ -669,6 +673,9 @@ body {
 }
 
 @media screen and (max-width: 670px) {
+    .bike-block{
+        display: none;
+    }
     .info__inner{
         display: block !important;
     }
@@ -682,6 +689,9 @@ body {
 }
 
 @media screen and (max-width: 640px) {
+    .bike-block{
+        display: none;
+    }
     .info__inner{
         display: block !important;
     }
@@ -705,6 +715,9 @@ body {
 }
 
 @media screen and (max-width: 460px) {
+    .bike-block{
+        display: none;
+    }
     .info__inner{
         display: block !important;
     }
@@ -754,6 +767,9 @@ body {
 }
 
 @media screen and (max-width: 350px) {
+    .bike-block{
+        display: none;
+    }
     .info__inner{
         display: block !important;
     }
