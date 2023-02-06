@@ -43,8 +43,8 @@ p{
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 18px;
+    line-height: 22px;
     color: #131313;
 }
 
@@ -134,10 +134,12 @@ body {
 .bike__text {
     margin-bottom: 20px;
     max-width: 420px;
+    text-align: justify;
+
 }
 
 .bike__link {
-    margin-top: 70px; 
+    margin-top: 95px; 
     display: inline-block;
     background-color: black;
     color: white;
@@ -146,7 +148,7 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 1.1em;
+    letter-spacing: 0.7em;
     transition: all .3s;
     text-align: center;
 }
@@ -281,6 +283,8 @@ body {
 
 .info__item-text {
     /* max-width: 450px; */
+    text-align: justify;
+
 }
 
 .characteristics {
@@ -571,6 +575,7 @@ body {
     }
     .info__item-text{
         max-width: 100%;
+	text-align: justify;
     }
 
     .info__item-title{
