@@ -145,8 +145,11 @@ body {
     color: white;
     align-items: center;
     border-radius: 20px;
-    width: 240px;
+    width: 250px;
     margin-bottom: 20px;
+    height: 35px;
+    justify-content: start;
+    padding-left: 5px;
 }
 .svyz-link{
     margin-top: 0px !important;
