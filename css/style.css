@@ -138,6 +138,24 @@ body {
 
 }
 
+.svyz{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #131313;
+    color: white;
+    align-items: center;
+    border-radius: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.svyz-link{
+    margin-top: 0px !important;
+}
+.svyz:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
 .bike__link {
     margin-top: 95px; 
     display: inline-block;
@@ -285,6 +303,10 @@ body {
     /* max-width: 450px; */
     text-align: justify;
 
+}
+
+.mb{
+    margin-bottom: 40px;
 }
 
 .characteristics {
@@ -758,7 +780,7 @@ body {
 .arrow{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .arrow__text{
