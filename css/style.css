@@ -137,7 +137,7 @@ body {
 }
 
 .bike__link {
-    margin-top: 80px; 
+    margin-top: 70px; 
     display: inline-block;
     background-color: black;
     color: white;
@@ -158,6 +158,37 @@ body {
 .bike-slider .slick-dots {
     right: 0;
     top: 50px;
+}
+
+.bike-block{
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 140px;
+    position: absolute;
+    z-index: 100;
+    margin-top: 100px;
+    margin-left: 400px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+
+   
+}
+
+.bike-block-text{
+    font-size: 20px;
+    color:white;
+    text-align: center;
+}
+
+.bike-block-text-header{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .slick-dots {
@@ -484,6 +515,13 @@ body {
 
     .bike {
         padding: 0;
+    }
+    .bike-block{
+        margin-left: 270px;
+        width: 120px;
+        height: 384px;
+        margin-top: 27px;
+        border-radius: 0px;
     }
     .header{
         padding: 0;
